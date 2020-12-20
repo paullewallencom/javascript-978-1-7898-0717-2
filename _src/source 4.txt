@@ -1,0 +1,11 @@
+        const myCar = {
+            color:"red",
+            topSpeed:300,
+            model:"mustang",
+            company:"ford",
+            year:2015,
+            price:50000,
+            turnOn: function(){console.log('started')},
+            drive() {console.log('You are driving')}
+            
+        }

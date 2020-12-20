@@ -1,0 +1,16 @@
+    class Car {
+        constructor(model,company,color){
+            this.color = color;
+            this.company = company;
+            this.model = model;
+            this.miles = 0;
+            this.oilChange = function(){
+                return `I needed that I have ${this.miles} miles`;   
+            }
+        }
+    }
+        
+    const car1 = new Car('F150','Ford','Blue');
+    const car2 = new Car('Civic','Honda','White');
+        
+    car1.miles +=5000;

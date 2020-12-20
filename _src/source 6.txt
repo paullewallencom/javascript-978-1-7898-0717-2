@@ -1,0 +1,9 @@
+        const myCar = {
+            color:"red",
+            miles:10000,
+            price:50000,
+            oilChange:function(){
+                return `I needed that I have ${this.miles} miles Thanks`;     
+            },
+            myColor(){ return 'I am '+this.color;}
+        }

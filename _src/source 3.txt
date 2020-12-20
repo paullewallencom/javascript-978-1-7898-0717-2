@@ -1,0 +1,6 @@
+        const test = new Object();
+        test.one = "one";
+        test.two = 2;
+        test.message = function(){
+            console.log('testing works');   
+        }

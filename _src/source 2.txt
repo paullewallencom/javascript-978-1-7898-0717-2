@@ -1,0 +1,6 @@
+        const car = {
+            color:"red",
+            year:2012,
+            price:50000,
+            model:"mustang"
+        };

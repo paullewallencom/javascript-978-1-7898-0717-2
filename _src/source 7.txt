@@ -1,0 +1,9 @@
+        function Car(miles,company,color,price){
+            this.color=color;
+            this.miles=miles;
+            this.price=price;
+            this.company=company;
+        }
+        
+        const myCar1 = new Car(100,"Honda","Pink",60000);
+        const myCar2 = new Car(500,"Ford","Yellow",30000);

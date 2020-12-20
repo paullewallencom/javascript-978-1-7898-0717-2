@@ -1,0 +1,25 @@
+        let myArray = ['Name', 50, false, 'First Name'];
+        const myObj = {
+            list: myArray
+        };
+        let test1 = [{
+                person: {
+                    age: 40
+                    , name: "John"
+                }
+        }, {
+                person: {
+                    age: 25
+                    , name: "Jane"
+                }
+        }
+                    ];
+        test1.push({
+            person: {
+                age: 50
+                , name: "Jimmy"
+            }
+        });
+        for (let x = 0; x < test1.length; x++) {
+            console.log(test1[x].person.name);
+        }
